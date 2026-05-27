@@ -1,1 +1,4 @@
 P3314 БТА
+запуск 4
+cd "папка с файлом"
+python main.py Low-Poly_Models.obj
