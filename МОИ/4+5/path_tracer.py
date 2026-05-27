@@ -92,7 +92,7 @@ def radiance(scene, ray, depth):
         n = -n
 
     if mat.is_emissive():
-        return Vec3(0, 0, 0)
+        return mat.Le
 
     rr_prob = 0.9 if depth > 2 else 1.0
     if random.random() > rr_prob:
